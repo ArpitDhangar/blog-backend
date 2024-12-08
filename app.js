@@ -8,6 +8,7 @@ import { errorMiddleware } from './middlewares/error.js';
 
 export const app = express()
 
+
 dotenv.config()
 app.use(express.json());
 app.use(cookieParser());
